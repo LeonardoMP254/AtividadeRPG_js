@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de RPG</title>
+</head>
+<body>
+    <h1>Gerador de RPG!</h1>
+
+     <!-- entrada do dialogo -->
+     <form name="FormConcatena" action=" " method="post">
+        <p>Digite seu nome..........: <input type="text" name="f_nome" /><p></p>
+        <p>Digite seu sobrenome..........: <input type="text" name="f_sobrenome" /><p></p>
+     </form>
+
+     <!-- classe do personagem -->
+      <select id="classes" multiple size="9" style="width:230px;">
+        <option value="Guerreiro">Guerreiro</option>
+        <option value="Bárbaro">Bárbaro</option>
+        <option value="Paladino">Paladino</option>
+        <option value="Ladino/Rogue">Ladino/Rogue</option>
+        <option value="Mago">Mago</option>
+        <option value="Feiticeiro">Feiticeiro</option>
+        <option value="Clérigo">Clérigo</option>
+        <option value="Druida">Druida</option>
+        <option value="Patrulheiro/Ranger">Patrulheiro/Ranger</option>
+     </select> <br><br>
+
+     <select id="ataque" multiple size="10" style="width:230px;">
+        <option value="Aniquilação Arcana">Aniquilação Arcana</option>
+        <option value="Tempestade Selvagem">Tempestade Selvagem</option>
+        <option value="Chama do Julgamento">Chama do Julgamento</option>
+        <option value="Punho do Dragão">Punho do Dragão</option>
+        <option value="Disparo Perfurante">Disparo Perfurante</option>
+        <option value="Lâmina Giratória">Lâmina Giratória</option>
+        <option value="Julgamento Celestial">Julgamento Celestial</option>
+        <option value="Maldição Devastadora">Maldição Devastadora</option>
+        <option value="Ira dos Deuses">Ira dos Deuses</option>
+        <option value="Raízes Destruidoras">Raízes Destruidoras</option>
+     </select>
+     <br><br>
+
+     <button onclick="kuzinho()">começar!</button>
+     
+     <script src="RPG.js">
+
+     </script>
+</body>
+</html>
